@@ -1,0 +1,220 @@
+Below is a clean, professional `index.html` file for the conference website. It is fully self-contained (HTML + embedded CSS) and suitable as a landing page.
+
+You can save this as `index.html` and open it directly in a browser.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IEEE NEPCon 2026</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #003366;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header h2 {
+            margin-top: 10px;
+            font-weight: normal;
+            font-size: 18px;
+        }
+
+        nav {
+            background: #002244;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h3 {
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+            color: #003366;
+        }
+
+        .highlight-box {
+            background: #e9f1fb;
+            padding: 20px;
+            border-left: 5px solid #003366;
+        }
+
+        .dates {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .date-card {
+            background: white;
+            padding: 20px;
+            flex: 1 1 250px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            border-radius: 6px;
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #0055aa;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>IEEE International Conference on NEext-Gen Pervasive Computing, Communication, Networking and Cybersecurity 
+IEEE -  NEPCon, 2026 
+</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#topics">Topics</a>
+    <a href="#important-dates">Important Dates</a>
+    <a href="#submission">Submission</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="about">
+        <h3>About NEPCon 2026</h3>
+        <div class="highlight-box">
+            <p>
+                IEEE NEPCon 2026 brings together researchers, practitioners, and industry experts
+                to discuss the latest innovations and research results in next-generation
+                pervasive computing, communication systems, networking architectures, and cybersecurity.
+            </p>
+            <p>
+                The conference aims to foster collaboration between academia, industry,
+                and government organizations in shaping the future of secure and intelligent connected systems.
+            </p>
+        </div>
+    </section>
+
+    <section id="topics">
+        <h3>Conference Topics</h3>
+        <ul>
+            <li>Next-Generation Pervasive & Ubiquitous Computing</li>
+            <li>5G/6G Communication Systems</li>
+            <li>AI-Driven Networking</li>
+            <li>Edge & Fog Computing</li>
+            <li>Internet of Things (IoT)</li>
+            <li>Cybersecurity & Privacy</li>
+            <li>Blockchain & Distributed Systems</li>
+            <li>Smart Cities & Intelligent Infrastructure</li>
+        </ul>
+    </section>
+
+    <section id="important-dates">
+        <h3>Important Dates</h3>
+        <div class="dates">
+            <div class="date-card">
+                <h4>Paper Submission Deadline</h4>
+                <p>March 15, 2026</p>
+            </div>
+            <div class="date-card">
+                <h4>Notification of Acceptance</h4>
+                <p>May 20, 2026</p>
+            </div>
+            <div class="date-card">
+                <h4>Camera-Ready Submission</h4>
+                <p>June 15, 2026</p>
+            </div>
+            <div class="date-card">
+                <h4>Conference Dates</h4>
+                <p>August 10–12, 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="submission">
+        <h3>Paper Submission</h3>
+        <p>
+            Authors are invited to submit original, unpublished research papers.
+            All submissions will undergo a rigorous peer-review process.
+        </p>
+        <a href="#" class="btn">Submit Your Paper</a>
+    </section>
+
+    <section id="contact">
+        <h3>Contact Information</h3>
+        <p>
+            For inquiries, please contact the organizing committee:
+        </p>
+        <p>
+            Email: ieeenepcon@gmail.com<br>
+            Website: ieee-nepcon.org
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 IEEE NEPCon | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+```
